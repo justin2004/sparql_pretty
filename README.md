@@ -7,7 +7,8 @@ pretty print your SPARQL queries
 use [Apache Jena](https://jena.apache.org/)'s qparse functionality
 
 ## use
-- have [Docker](https://docs.docker.com/get-docker/) installed
+- have make and [Docker](https://docs.docker.com/get-docker/) installed
+- `make`
 - cat some.rq | docker run --rm -i justin2004/sparql_pretty
 
 e.g.
